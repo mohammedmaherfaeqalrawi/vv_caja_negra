@@ -13,7 +13,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-public class Prueba {
+public class TestPrueba {
     SingleLinkedListImpl lista;
     @BeforeEach
      void setup(){
@@ -819,7 +819,7 @@ public class Prueba {
     }
     @Test
     @DisplayName("Test removeLast(T elem) cuando elem aparece varías veces")
-    void testremoveLastvaríasAparencias() throws EmptyCollectionException {
+    void testremoveLastvariasAparencias() throws EmptyCollectionException {
         lista.addLast('B');
         lista.addLast('A');
         lista.addLast('B');
